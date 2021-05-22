@@ -11,7 +11,7 @@ const Register = (props) => {
 	};
 	return (
 		<>
-		{console.log("jfnjdhcj")}
+		{/* {console.log("jfnjdhcj")} */}
 			<Redirect to="/login" />
 			<Switch>
 				<Route

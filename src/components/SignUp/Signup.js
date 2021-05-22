@@ -24,7 +24,8 @@ const SignUp = (props) => {
 				passwordVerify,
 			};
 			const SignupResult = await axios.post(
-				"http://localhost:5000/auth/register",
+				// "http://localhost:5000/auth/register",
+				"https://authenticate-form.herokuapp.com/auth/register",
 				SignUpInfo
 			);
 			const response = SignupResult.data;
